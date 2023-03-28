@@ -1,0 +1,21 @@
+Enunciado:  Leer un numero entero de dos digitos menor que 20 y determinar si es primo
+
+Algoritmo Numero_Primo
+Variables
+	Entero: num
+
+INICIO 
+	ESCRIBA "Digite Un numero menor que 20"
+	LEA num
+  SI num < 20 
+		SI (num/2*2 = num) AND (num <> 2)
+			ESCRIBA "El numero digitado no es primo"
+		 SINO 
+		  "ESCRIBA "El numero digitado es primo"
+
+  SINO
+		ESCRIBA "El numero digitado no es menor que 20"
+FIN
+
+
+
