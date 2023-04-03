@@ -1,0 +1,24 @@
+Leer un número entero de dos digitos y determinar 
+si los digitos son iguales
+
+Algoritmo digitos_Iguales
+Variables
+	Entero: num,dig1,dig2
+
+INICIO
+	ESCRIBA "digite un numero de dos digitos"
+	LEA num
+	SI num > 9 Y num < 100
+		dig1 = num/10
+		dig2 = num - num/10 * 10
+		SI dig1 = dig2
+			ESCRIBA "Escriba el digito "dig1"es igual a el "dig2"
+		SINO 
+			ESCRIBA "los digitos "dig1 Y dig2" no son iguales"
+	SINO
+		ESCRIBA "El numero digitado no es de dos digitos" 
+FIN
+
+
+
+

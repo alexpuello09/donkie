@@ -1,0 +1,17 @@
+Leer dos numeros enteros y determinar cual es mayor.
+
+Algoritmo numero_Determinar_Mayor
+Variables 
+	Entero: numA,numB
+
+INICIO
+	ESCRIBA "Digite un numero"
+	LEA numA
+	ESCRIBA "Digite otro numero"
+	LEA numB
+	SI numA > numB
+		ESCRIBA "El numero"numA"es mayor que "numB"
+	SINO
+		ESCRIBA "El numero"numB"es mayor que "numA"
+FIN
+

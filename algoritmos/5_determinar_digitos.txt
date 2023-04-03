@@ -1,0 +1,16 @@
+Leer un número entero y determinar si tiene 3 digitos
+
+Algoritmo determina_digitos
+Variable
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero entero"	
+	LEA num
+	SI num < 0
+		num = num * (-1)
+	Si num >= 100 Y num <= 999
+		ESCRIBA "El numero digitado si tiene 3 digitos"
+	Sino
+		ESCRIBA "El numero digitado no tiene 3 digitos"
+FIN

@@ -1,0 +1,22 @@
+Leer un numero entero de dos digitos y determinar 
+si sus dos digitos son primos.
+
+Algoritmo determinar_Digitos_primos
+Variables
+	Entero: num,dig1,dig2
+
+INICIO
+	ESCRIBA "Digite un numero de dos digitos"
+	LEA num
+	SI num < 0
+		num = num * (-1)
+	SI num > 9 y num < 100
+		dig1 = num/10
+		dig2 = num - num/10 * 10
+			SI dig1/2 * 2 < > dig1 Y dig2/2 * 2 < > dig2
+				ESCRIBIR "Ambos digitos son primos"
+			SINO
+				ESCRIBIR "Ambos digitos no son primos"
+	SINO
+		ESCRIBIR "Digite un numero de dos digitos"
+FIN
