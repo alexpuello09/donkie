@@ -1,0 +1,39 @@
+Leer dos numeros enteros de dos digitos y determinar 
+si tienen digitos comunes
+
+Algoritmo Digitos_comunes
+Variables
+	Entero: numA,numB,digA1,digA2,digB1,digB2
+
+INICIO
+	ESCRIBA "Digite un numero de dos digitos"
+	LEA numA
+	ESCRIBA "Digite otro numero de dos digitos"
+	LEA numB
+	SI numA > 9 Y numA < 100
+		SI numB > 9 Y numB < 100
+			digA1 = numA/10
+			digA2 = numA-numA/10 * 10
+			digB1 = numB/10
+			digB2 = numB-numB/10 * 10
+			SI digA1 = digB1
+				ESCRIBA  "digA1 "es igual a" digB1"
+			SINO
+				ESCRIBA "digA1" no es igual a"digB1"
+				SI digA2 = digB2 
+					ESCRIBA "digA2"es igual a"digB2"
+				SINO
+					ESCRIBA "digA2" no es igual a "digB2"
+					SI digA1 = digB2
+						ESCRIBA "digA1"es igual a "digB2"
+					SINO
+						ESCRIBA "digA1"no es igual a "digB2"
+						SI digA2 = digB1
+							ESCRIBA "digA2" es igual a "digB1"
+						SINO
+							ESCRIBA "digA2" no es igual a "digB1"
+		SINO
+			ESCRIBA "Digite un numero de dos digitos" 
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN

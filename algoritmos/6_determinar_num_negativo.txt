@@ -1,0 +1,14 @@
+Leer un numero entero y determinar si es negativo
+
+Algoritmo_determinar_numero_negativo
+Variable
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	SI num < 0
+		ESCRIBA "El numero digitado si es negativo"
+	SINO
+		ESCRIBA "El numero digitado es positivo"
+FIN

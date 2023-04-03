@@ -1,0 +1,20 @@
+Leer un numero entero de dos digitos y determinar si 
+un digito es multiplo de otro.
+
+Algoritmo_determinar_Digito_Multiplo
+Variables
+	Entero: num,dig1,dig2
+
+INICIO
+	ESCRIBA "Digite un numero de dos digitos"
+	LEA num
+	SI num > 9 Y num < 100
+		dig1 = num/10
+		dig2 = num - num/10 * 10
+		SI dig1/dig2 = 0
+			ESCRIBA "El digito" dig1"no es multiplo de "dig2"
+		SINO	
+			ESCRIBA "El digito "dig1"es multiplo de "dig2"
+	SINO
+	 ESCRIBA "El numero digitado no es de dos digitos"
+FIN
