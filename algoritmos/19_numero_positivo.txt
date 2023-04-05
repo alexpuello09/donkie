@@ -1,0 +1,22 @@
+Leer un numero entero menor que 50 y positivo y determinar 
+si es un numero primo.
+
+
+Algoritmo numero_positivo
+Variable
+	Entero: num
+
+INICIO 
+	ESCRIBA "Digite un numero menor que 50"
+	LEA num
+	SI num > 0
+		SI num > 0 y num < 50
+			SI num/2 * 2 < > num
+				ESCRIBA "El numero digitado es positivo y es primo"
+			SINO
+				ESCRIBA "El numero digitado no es primo"
+		SINO
+			ESCRIBA "Digite un numero menor que 50"
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN

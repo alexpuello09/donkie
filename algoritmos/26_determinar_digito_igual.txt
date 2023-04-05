@@ -1,0 +1,20 @@
+Leer un numeros de tres digitos y determinar si el primer digito
+es igual al ultimo.
+
+Algoritmo determinar_digito_igual
+Variables
+	Entero: num,A,B
+
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	SI num > 99 y num < 1000
+		A = num/100
+		B = num/10
+		SI A = B
+			ESCRIBA "El primer digito es igual al ultimo"
+		SINO
+			ESCRIBA "El primer digito no es igual al ultimo"
+	SINO
+		ESCRIBA "Digite un numero de tres digitos"
+FIN

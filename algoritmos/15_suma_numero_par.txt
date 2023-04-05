@@ -1,0 +1,24 @@
+Leer dos numeros enteros de dos digitos y determinar si la
+suma de los dos numeros origina un numero par.
+
+Algoritmo suma_Numero_Par
+Variables
+	Entero: num1,num2,Snum
+
+INICIO
+	ESCRIBA "Digite un numero de dos digitos"
+	LEA num1
+	ESCRIBA "Digite otro numero de dos digitos"
+	LEA num2
+	SI num1 > 9 Y num1 < 100
+		SI num2 > 9 Y num2 < 100
+			Snum = num1 + num2
+				Si Snum/2 * 2 = Snum
+					ESCRIBA "La suma de los dos numeros es par"
+				SINO
+					ESCRIBA "La suma de los dos numeros no es par"
+		SINO 
+			ESCRIBA "Digite un numero de dos digitos"
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN

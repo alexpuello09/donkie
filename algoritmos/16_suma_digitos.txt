@@ -1,0 +1,25 @@
+Leer dos numeros enteros de dos digitos y determinar a cuanto es 
+igual la suma de todos sus digitos
+
+Algoritmo_suma_digitos
+Variables 
+	Entero: num1,num2,dig11,dig21,dig12,dig22,Sum
+
+INICIO
+	ESCRIBA "Digite un numero de dos digitos"
+	LEA num1
+	ESCRIBA "Digite otro numero de dos digitos"
+	LEA num2
+	SI num1 > 9 Y num1 < 100
+		SI num2 > 9 Y num2 < 100
+			dig11 = num1/10
+			dig21 = num1 - num1/10 * 10
+			dig12 = num2/10
+			dig22 = num2 - num2/10 * 10
+			Sum = dig11 + dig21 + dig12 + dig22
+			ESCRIBA "La suma de todos sus digitos es igual a""Sum"
+		SINO
+			ESCRIBA "Digite un numero de dos digitos"
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN

@@ -1,0 +1,15 @@
+Leer un numero entero y determinar si es igual a 10
+
+
+Algoritmo determinar_numero
+Variable
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	SI num = 10
+		ESCRIBA "El numero digitado es igual a 10"
+	SINO
+		ESCRIBA "El numero digitado no es igual a 10"
+FIN

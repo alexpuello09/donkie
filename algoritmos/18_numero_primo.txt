@@ -1,0 +1,18 @@
+Leer un numero entero y si es menor que 100
+determinar si es primo.
+
+Algoritmo numero_primo
+Variable
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero menor que 100"
+	LEA num
+	SI num < 100
+		SI num/2 * 2 < > num
+			ESCRIBA "El numero digitado es primo"
+		SINO
+			ESCRIBA "El numero digitado no es primo"
+	SINO 
+		ESCRIBA "Digite un numero menor que 100"
+FIN

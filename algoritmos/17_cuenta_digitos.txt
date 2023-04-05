@@ -1,0 +1,20 @@
+Leer un numero entero menor que mil y determinar 
+cuantos digitos tiene 
+
+
+Algoritmo cuenta_digitos
+Variables
+	Entero: num,cd
+
+INICIO
+	ESCRIBA "Digite un numero menor que mil"
+	LEA num
+	SI num < 1000
+		MIENTRAS num < > 0
+				num = num/10
+				cd = cd +1
+		FIN_MIENTRAS
+		ESCRIBA "El numero digitado tiene"cd"digitos"
+	SINO
+		ESCRIBA	"Digite un numero menor que mil"
+FIN

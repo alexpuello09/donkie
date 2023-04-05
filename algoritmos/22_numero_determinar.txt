@@ -1,0 +1,13 @@
+Leer un numero entero y determinar si termina en 7.
+
+Algoritmo numero_determinar
+Variables
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero"
+	SI num/10 = 7
+		ESCRIBA "El numero"num"si termina en 7"
+	SINO
+		ESCRIBA "El numero "num"no termina en 7"
+FIN

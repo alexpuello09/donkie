@@ -1,0 +1,14 @@
+Leer un numero entero y determinar si es multiplo de 7
+
+Algoritmo determinar_multiplo
+Variable
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero"
+	LEA num
+	SI num/7 = 0
+		ESCRIBA "El numero digitado si es multiplo de 7"
+	SINO 
+		ESCRIBA "El numero digitado no es multiplo de 7"	
+FIN

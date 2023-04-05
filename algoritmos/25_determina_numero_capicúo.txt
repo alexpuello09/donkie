@@ -1,0 +1,21 @@
+Leer un numero de cinco digitos y determinar si es un 
+numero capicúo
+
+
+Algoritmo determinar_número_capicúo
+Variables
+	Entero: num,digA,digB
+
+INICIO
+	ESCRIBA "Digite un numero de cinco digitos"
+	LEA num
+	SI num > 9,999 Y num < 100,000
+		digA = num/10
+		digB = num/10,000
+			SI digA = digB
+				ESCRIBA "El numero si es capicúa"
+			SINO
+				ESCRIBA "El numero no es capicúa"
+	SINO
+		ESCRIBA "Digite un numero de cinco digitos"
+FIN
