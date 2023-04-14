@@ -2,8 +2,8 @@ Leer un numero entero y determinar si es un numero terminado en 4
  
 
 Algoritmo determinar_numero
-Variable
-	Entero: num
+Variables
+	Entero: num,uldig
 
 INICIO
 	ESCRIBA "Digite un numero entero"
@@ -11,9 +11,10 @@ INICIO
 	Si num < 0
 		num = num * (-1)
 		num = num - num/10 * 10
-	SI num = 4
-		ESCRIBA "El numero digitado si termina en 4"
-	SINO 
-		ESCRIBA "El numero digitado no termina en 4"
+		uldig = num
+		Si uldig = 4 
+			ESCRIBA "El numero digitado si termina en 4"
+		SINO
+			ESCRIBA "El numero digitado no termina en 4"	
 FIN
 
