@@ -16,5 +16,5 @@ INICIO
 		SINO
 			ESCRIBA "El numero digitado no termina en 4"
 	SINO
-		ESCRIBA "El numero digitado es negativo"
+		num = num * (-1)
 FIN
