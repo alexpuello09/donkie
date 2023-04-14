@@ -1,4 +1,4 @@
-Enunciado: Leer  un numero entero y determinar si es negativo.
+Enunciado: Leer un numero entero y determinar si es negativo.
 
 Algoritmo Numero_Negativo
 Variables
