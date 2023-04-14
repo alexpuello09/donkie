@@ -8,9 +8,9 @@ Variables
 INICIO
 	ESCRIBA "Digite un numero entero"
 	LEA num
+	ulDig = 0
 	SI num > 0
-		num = num - num/10 * 10
-		ulDig = num
+		ulDig = num-num/10 * 10
 		SI ulDig = 4 
 			ESCRIBA "El numero digitado si termina en 4"
 		SINO
