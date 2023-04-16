@@ -3,7 +3,7 @@ comprendidos entre ellos
 
 Programa_numeros_Enteros
 Variables
-	Entero: num1,num2,ContaNum
+	Entero: num1,num2,contaNum
 
 INICIO
 	ESCRIBA "Digite un numero entero"
@@ -11,17 +11,17 @@ INICIO
 	ESCRIBA "Digite un numero entero"
 	LEA num2
 	ContaNum = 0
-	SI num1 = num2
+	SI num1 < > num2
 		SI num1 < num2
 			MIENTRAS num1 < > num2
-				ContaNum = num1 + 1
+				contaNum = num1 + 1
+				ESCRIBA "contaNum"
 			FIN_MIENTRAS
-			ESCRIBA "ContaNum"
 		SINO
 			MIENTRAS num2 < > num1
 				Contanum = num2 + 1
+				ESCRIBA "ContaNum"
 			FIN_MIENTRAS
-			ESCRIBA "ContaNum"
-	ESCRIBA "Los numeros deben ser diferentes"
+	SINO		
+		ESCRIBA "Los numeros deben ser diferentes"
 FIN
-		
