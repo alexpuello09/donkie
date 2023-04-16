@@ -1,0 +1,27 @@
+Leer dos numeros y mostrar todos los enteros 
+comprendidos entre ellos
+
+Programa_numeros_Enteros
+Variables
+	Entero: num1,num2,ContaNum
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num1
+	ESCRIBA "Digite un numero entero"
+	LEA num2
+	ContaNum = 0
+	SI num1 = num2
+		SI num1 < num2
+			MIENTRAS num1 < > num2
+				ContaNum = num1 + 1
+			FIN_MIENTRAS
+			ESCRIBA "ContaNum"
+		SINO
+			MIENTRAS num2 < > num1
+				Contanum = num2 + 1
+			FIN_MIENTRAS
+			ESCRIBA "ContaNum"
+	ESCRIBA "Los numeros deben ser diferentes"
+FIN
+		
