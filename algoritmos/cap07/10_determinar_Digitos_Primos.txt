@@ -13,7 +13,7 @@ INICIO
 	SI num > 9 y num < 100
 		dig1 = num/10
 		dig2 = num - num/10 * 10
-			SI dig1/2 * 2 < > dig1 Y dig2/2 * 2 < > dig2
+			SI dig1/2 * 2 < > dig1 AND dig2/2 * 2 < > dig2
 				ESCRIBIR "Ambos digitos son primos"
 			SINO
 				ESCRIBIR "Ambos digitos no son primos"
