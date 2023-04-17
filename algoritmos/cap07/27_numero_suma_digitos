@@ -1,0 +1,21 @@
+Leer un numero entero de tres digitos y determinar a cuanto es 
+igual la suma de sus digitos
+
+Algoritmo numero_suma_digitos
+Variables
+	Entero: num,A,B,C
+	
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	SI num > 0
+		SI num > 99 AND num < 1000
+			C = num/10
+			B = num/10/10
+			A = num/10/10/10
+			ESCRIBA "La suma es igual a""A+B+C"
+		SINO
+			ESCRIBA "El numero digitado no es de tres digitos"
+	SINO
+		ESCRIBA "El numero digitado es negativo"
+FIN
