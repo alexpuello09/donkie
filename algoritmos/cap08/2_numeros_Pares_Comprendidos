@@ -1,0 +1,17 @@
+Leer un numero entero y mostrar todos los pares 
+comprendidos entre 1 y el numero leido.
+
+Programa_numeros_Pares_Comprendidos
+Variables
+	Entero: num,numPar
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	numPar = 1
+	HAGA
+		numPar = numPar + 1
+		SI numPar/2 * 2 = numPar
+			ESCRIBA "numPar"
+	HASTA numPar = num - 1
+FIN
