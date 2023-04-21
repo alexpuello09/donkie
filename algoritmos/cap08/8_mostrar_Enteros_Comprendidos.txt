@@ -1,0 +1,15 @@
+Mostrar en pantalla todos los enteros comprendidos entre 1 y 100
+
+Programa mostrar_Enteros_Comprendidos
+Variables
+	Entero: inicialNum,contaNum,finalNum
+
+INICIO
+	inicialNum = 1
+	contaNum = inicialNum
+	finalNum = 100
+	HAGA
+		contaNum = contaNum + 1
+		ESCRIBA "contaNum"
+	HASTA contaNum = finalNum - 1
+FIN
