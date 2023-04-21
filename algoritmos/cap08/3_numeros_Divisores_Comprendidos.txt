@@ -11,7 +11,7 @@ INICIO
 	numDiv = 1
 	HAGA
 		numDiv = numDiv + 1
-		SI num/numDiv = 0
+		SI num/numDiv * numDiv = num
 			ESCRIBA "numDiv"
 	HASTA numDiv = num - 1
 FIN
