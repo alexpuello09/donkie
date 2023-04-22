@@ -1,0 +1,17 @@
+Mostrar en pantalla todos los numeros terminados en 6
+comprendidos entre 25 y 205.
+
+Programa numeros_Terminados_Comprendidos
+Variable
+	Entero: inicialNum,numFinal,nuevoNum
+
+INICIO
+	inicialNum = 25
+	numFinal = 205
+	nuevoNum = inicialNum
+	HAGA 
+		nuevoNum = nuevoNum + 1
+		SI nuevoNum - nuevoNum/10 * 10 = 6
+		ESCRIBA "nuevoNum"
+	HASTA nuevoNum = numFinal - 1
+FIN
