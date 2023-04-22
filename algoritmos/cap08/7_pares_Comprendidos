@@ -1,0 +1,17 @@
+Mostrar todos los pares comprendidos entre 20 y 200.
+
+Programa_pares_Comprendidos
+Variables
+	Entero: inicialNum,contaInicialNum,FinalNum
+
+INICIO
+	inicialNum = 20
+	contaInicialNum = inicialNum
+	finalNum = 200
+	HAGA 
+		contaInicialNum = contaInicialNum + 1
+		SI contaInicialNum/2 * 2 = contaInicialNum
+		ESCRIBA "contaInicialNum"
+	HASTA contaInicialNum = finalNum - 1
+FIN
+	
