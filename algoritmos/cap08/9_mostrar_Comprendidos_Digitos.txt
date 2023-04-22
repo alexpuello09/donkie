@@ -27,7 +27,7 @@ INICIO
 					ESCRIBA "Los numeros entre 1 y""dig2"son "contaNum"
 			SINO
 				ESCRIBA "No hay numeros entre 1 y""dig2"
-				SI dig1 > contaNum + 1
+				SI dig1 kl> contaNum + 1
 					PARA contaNum = 1 HASTA dig1 -1 paso 1
 						ESCRIBA "Los numeros entre 1 y""dig1"son "contaNum"
 				SINO
