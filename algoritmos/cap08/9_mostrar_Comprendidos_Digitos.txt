@@ -1,0 +1,37 @@
+Leer un numero entero de tres digitos y mostrar todos
+los comprendidos entre 1 y cada uno de los digitos.
+
+Programa mostrar_Comprendidos_Digitos
+Variables
+	entero: num,nuevoNum,contaNum,dig1,dig2,dig3
+
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	nuevoNum = num
+	contaNum = 1
+	SI nuevoNum < -99 AND nuevoNum > - 1000 OR nuevoNum > 99 AND nuevoNum < 1000
+		HAGA 
+			dig3 = nuevoNum/10
+			dig2 = nuevoNum/10
+			dig1 = nuevoNum/10
+		HASTA nuevoNum = 0
+		SI dig3 > contaNum + 1
+			PARA contaNum = 1 HASTA dig3 -1 paso 1
+				ESCRIBA "Los numeros entre 1 y "dig3" son "contaNum"
+			FIN_PARA
+		SINO
+			ESCRIBA "No hay numeros entre 1 y""dig3"
+			SI dig2 > contaNum + 1
+				PARA contaNum = 1 HASTA dig2 -1 paso 1
+					ESCRIBA "Los numeros entre 1 y""dig2"son "contaNum"
+			SINO
+				ESCRIBA "No hay numeros entre 1 y""dig2"
+				SI dig1 > contaNum + 1
+					PARA contaNum = 1 HASTA dig1 -1 paso 1
+						ESCRIBA "Los numeros entre 1 y""dig1"son "contaNum"
+				SINO
+					ESCRIBA "No hay numeros entre 1 y""dig1"
+	SINO
+		ESCRIBA "Digite un numero de tres digitos"
+FIN
