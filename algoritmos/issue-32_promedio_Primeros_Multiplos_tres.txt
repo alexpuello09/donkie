@@ -14,6 +14,6 @@ INICIO
 		numInicial = numInicial + 3
 		contaNum = contaNum + 1
 		suma = suma + numInicial
-	HASTA numInicial = num*3
+	HASTA numInicial = num * 3
 	ESCRIBA "El promedio es igual a "suma/contaNum"
 FIN
