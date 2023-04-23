@@ -1,0 +1,27 @@
+Leer dos numeros enteros y mostrar todos los multiplos de 5 
+comprendidos entre el menor y el mayor.
+
+programa numeros_Enteros_Multiplos_cinco
+variables 
+	Entero: num1,num2,contador1,contador2
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num1
+	ESCRIBA "Digite otro numero entero"
+	LEA num2
+	contador1 = 0
+	contador2 = 0
+	SI num1 < num2
+		MIENTRAS contador1 < > num2
+			contador1 = contador1 + 1
+			SI contador1 - contador1/10*10 = 5 OR contador1-contador1/10*10 = 0
+			ESCRIBA "contador1"
+		FIN_MIENTRAS
+	SINO
+	MIENTRAS contador2 < > num1
+		contador2 = contador2 + 1
+		SI contador2 - contador2/10*10 = 5 OR contador2-contador2/10*10 = 0		
+		ESCRIBA "contador2"
+	FIN_MIENTRAS
+FIN
