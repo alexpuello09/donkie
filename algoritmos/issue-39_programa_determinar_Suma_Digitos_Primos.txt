@@ -1,0 +1,42 @@
+Leer un numero entero y determinar si la suma de sus digitos
+es tambien un numero primo.
+
+programa_determinar_Suma_Digitos_Primos
+Variables
+	Entero: num,nuevoNum,suma
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	nuevoNum = num
+	ultimoDigito = 0
+	suma = 0
+	MIENTRAS nuevoNum < > 0
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		nuevoNum = nuevoNum/10
+		suma = suma + ultimoDigito
+	FIN_MIENTRAS
+	SI suma/2 * 2 = suma AND suma < > 2
+		ESCRIBA "La suma de los digitos no es un numero primo "
+	SINO
+		ESCRIBA "La suma de los digitos es un numero primo"
+FIN
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
