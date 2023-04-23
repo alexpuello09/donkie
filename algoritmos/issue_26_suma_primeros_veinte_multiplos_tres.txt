@@ -1,0 +1,15 @@
+Escribir en pantalla el resultado de sumar los primeros 20 multiplos 
+de tres.
+
+programa_suma_Primeros_Veinte_Multiplos_Tres
+Variables
+	Entero: numInicial,numFinal
+
+INICIO
+	numInicial = 0
+	numFinal = 3*20
+	HAGA
+		numInicial = numInicial + 3
+		ESCRIBA "numInicial"
+	HASTA numInicial = numFinal
+FIN
