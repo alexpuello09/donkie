@@ -1,0 +1,20 @@
+Leer un numero entero y determinar cuantas veces tiene el digito uno.
+
+programa leer_Numero_Entero.txt
+Variables
+	Entero: num,nuevoNum,ultimoDigito,contador
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	nuevoNum = num
+	contador = 0
+	ultimoDigito = 0
+	HAGA
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		nuevoNum = nuevoNum/10
+		SI ultimoDigito = 1
+		contador = contador + ultimoDigito
+	HASTA nuevoNum = 0
+	ESCRIBA "El numero digitado tiene"contador" veses el digito 1"
+FIN
