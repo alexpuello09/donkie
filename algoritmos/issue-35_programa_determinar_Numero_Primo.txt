@@ -1,0 +1,15 @@
+Leer un numero y determinar si es primo.
+
+programa_determinar_Numero_Primo
+Variables
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero "
+	LEA num
+	SI num/2 * 2 < > num
+		ESCRIBA "El numero digitado es primo"
+	SINO
+		ESCRIBA "El numero digitado no es primo"
+FIN
+
