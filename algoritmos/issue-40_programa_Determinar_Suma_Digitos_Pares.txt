@@ -1,0 +1,21 @@
+Leer un numero entero y determinar a cuanto es igual la suma 
+de sus digitos pares.
+
+programa_Determinar_Suma_Digitos_Pares
+Variables
+	Entero: num,nuevoNum,ultimoDigito,suma
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	nuevoNum = num
+	ultimoDigito = 0
+	suma = 0
+	MIENTRAS nuevoNum < > 0
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		nuevoNum = nuevoNum/10
+		SI ultimoDigito/2 * 2 = ultimoDigito
+		suma = suma + ultimoDigito
+	FIN_MIENTRAS
+	ESCRIBA "La suma de los digitos pares es igual a" "suma"
+FIN
