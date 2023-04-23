@@ -1,0 +1,27 @@
+Leer un numero entero de dos digitos y mostrar en pantalla
+todos los enteros comprendidos entre un digito y otro.
+
+programa digitos_Enteros_Comprendidos
+Variables
+	Entero: num,nuevoNum,PrimerDigito,ultimoDigito
+
+INICIO
+	LEA num
+	nuevoNum = num
+	SI nuevoNum < 0
+	nuevoNum = nuevoNum * (-1)
+	SI nuevoNum > 9 AND nuevoNum < 100
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		nuevoNum = nuevoNum/10
+		primerDigito = nuevoNum - nuevoNum/10 * 10
+		SI primerDigito > ultimoDigito
+			PARA index = ultimoDigito HASTA primerDigito -1 PASO 1
+				ESCRIBA "index"
+			FIN_PARA
+		SINO
+			PARA index = primerDigito HASTA ultimoDigito -1 PASO 1
+				ESCRIBA "index"
+			FIN_PARA
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN
