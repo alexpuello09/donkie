@@ -1,0 +1,19 @@
+Mostrar en pantalla el promedio de los n primeros multiplos de tres.
+
+programa promedio_Primeros_Multiplos_Tres
+Variables
+	Entero: num,numInicial,suma,contaNum
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	suma = 0
+	contaNum = 0
+	numInicial = 0
+	HAGA
+		numInicial = numInicial + 3
+		contaNum = contaNum + 1
+		suma = suma + numInicial
+	HASTA numInicial = num*3
+	ESCRIBA "El promedio es igual a "suma/contaNum"
+FIN
