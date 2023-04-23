@@ -1,0 +1,17 @@
+Leer un numero y determinar cuantos digitos tiene.
+
+programa numero_Determinar_Digitos
+Variables
+	Entero: num,nuevoNum,contaNum
+
+INICIO
+	ESCRIBA "Digite un numero"
+	LEA num
+	nuevoNum = num
+	contaNum = 0
+	MIENTRAS nuevoNum < > 0
+		nuevoNum = nuevoNum/10
+		contaNum = contaNum + 1
+	FIN_MIENTRAS
+	ESCRIBA "El numero digitado tiene "contaNum" digitos"
+FIN
