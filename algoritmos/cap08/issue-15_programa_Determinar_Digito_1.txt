@@ -1,0 +1,23 @@
+Leer un numero entero de tres digitos y determinar
+si tiene el digito 1.
+
+programa determinar_Digito_1
+Variables
+	Entero: num,nuevoNum,ultimoDigito
+
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	nuevoNum = num
+	SI nuevoNum < 0 
+	nuevoNum = nuevoNum * (-1)
+	SI nuevoNum > 99 AND nuevoNum < 1000
+		HAGA 
+			ultimoDigito = nuevoNum - nuevoNum/10*10
+			SI ultimoDigito = 1 
+			ESCRIBA "ultimoDigito"
+			nuevoNum = nuevoNum/10
+		HASTA nuevoNum = 0
+	SINO
+		ESCRIBA "Digite un numeros de tres digitos"
+FIN
