@@ -1,0 +1,13 @@
+Mostrar en pantalla los primeros 20 multiplos de 3.
+
+programa primeros_Multiplos
+Variables
+	Enteros: numInicial,numFinal
+
+INICIO
+	numInicial = 0
+	numFinal = 3*20
+	PARA index = numInicial HASTA numFinal PASO 3
+		ESCRIBA "numInicial"
+	FIN_PARA
+FIN	
