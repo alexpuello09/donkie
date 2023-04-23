@@ -1,0 +1,20 @@
+Leer un numero y determinar a cuanto es igual la suma de sus digitos.
+
+programa numero_Suma_Digitos
+Variables
+	Entero: num,nuevoNum,ultimoDigito,SumaDigitos
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	nuevoNum = num
+	sumaDigitos = 0
+	SI nuevoNum < 0
+		nuevoNum = nuevoNum * (-1)
+	MIENTRAS nuevoNum < > 0
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		nuevoNum = nuevoNum/10
+		sumaDigitos = sumaDigitos + ultimoDigito
+	FIN_MIENTRAS
+	ESCRIBA "La suma de los digitos es igual a" "sumaDigitos"
+FIN
