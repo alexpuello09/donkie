@@ -1,0 +1,35 @@
+Promediar los X primeros multiplos de 2 y determinar si ese promedio
+es mayor que los Y primeros multiplos de 5 para valores X y Y.
+
+programa_promediar_Primeros_Multiplos_Dos
+Variables
+	Entero: numX,numY,numInicialX,numInicialY,sumaX,sumaY,contaNumX,contaNumY
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA numX
+	ESCRIBA "Digite otro numero entero"
+	LEA numY
+	numInicialX = 0
+	numInicialY = 0
+	contaNumX = 0 
+	contaNumY = 0
+	sumaX = 0
+	sumaY = 0
+		HAGA
+			numInicialX = numInicialX + 2
+			contaNumX = contaNumX + 1
+			sumaX = sumaX + numInicialX
+		HASTA numInicialX = numX * 2
+		sumaX = sumaX/contaNumX
+		HAGA
+			numInicialY = numInicialY + 5
+			contaNumY = contaNumY + 1
+			sumaY = sumaY + numInicialY
+		HASTA numInicialY = numY * 5
+		sumaY = sumaY/contaNumY
+		SI sumaX > sumaY
+			ESCRIBA "El promedio "sumaX" tiene mayor promedio" que "sumaY"
+		SINO
+			ESCRIBA "El promedio "sumaY" tiene mayor promedio" que "sumaX"
+FIN
