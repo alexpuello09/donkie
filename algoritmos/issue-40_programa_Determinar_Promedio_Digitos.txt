@@ -1,0 +1,22 @@
+Leer un numero entero y determinar a cuanto es igual el 
+promedio de sus digitos.
+
+programa_Determinar_Promedio_Digitos
+Variables
+	Entero: num,nuevoNum,ultimoDigito,contador,suma
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	nuevoNum = num
+	ultimoDigito = 0
+	contador = 0
+	suma = 0
+	MIENTRAS nuevoNum < > 0
+		ultimoDigito = nuevoNum - nuevoNum/10 * 10
+		contador = contador + 1
+		nuevoNum = nuevoNum/10
+		suma = suma + ultimoDigito
+	FIN_MIENTRAS
+	ESCRIBA "El promedio de sus digitos es igual a" "suma/contador"
+FIN
