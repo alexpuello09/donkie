@@ -1,0 +1,24 @@
+Leer un numero entero de tres digitos y mostrar todos los comprendidos entre 1 y cada uno de los digitos.
+Programa mostrar_Comprendidos_Digitos
+Variables
+	entero: num,nuevoNum,contaNum,ultimoDigito
+
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	nuevoNum = num
+	contaNum = 1
+	SI num < 0
+		num = num * (-1)
+	SI nuevoNum > 99 AND nuevoNum < 1000
+		MIENTRAS nuevoNum < > 0
+			ultimoDigito = nuevoNum - nuevoNum/10*10
+			nuevoNum = nuevoNum/10
+			ESCRIBA "Los numeros desde 1 hasta "ultimoDigito son:"
+			PARA index=1 HASTA ultimoDigito -1 PASO 1
+				ESCRIBA "index"
+			FIN_PARA
+		FIN_MIENTRAS
+	SINO
+		ESCRIBA "Digite un numero de tres digitos"
+FIN

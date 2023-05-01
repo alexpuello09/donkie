@@ -1,0 +1,20 @@
+Leer un numero entero y mostrar todos los enteros comprendidos
+entre 1 y el numero leido.
+
+Programa numeros_Enteros_Comprendidos
+Variables
+	Entero: num,numContador
+
+INICIO
+	Escriba "Digite un numero entero"
+	LEA num
+	numContador = 1
+	SI num < > numContador
+		HAGA 
+			numContador + 1
+			ESCRIBA numContador
+		HASTA numContador = num - 1
+	SINO
+		ESCRIBA "Digite un numero diferente de 1"
+FIN
+

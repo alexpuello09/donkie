@@ -1,0 +1,24 @@
+Leer un numero entero de dos digitos y determinar si es primo
+y ademas si es negativo.
+
+Algoritmo_Leer_Digitos_Negativos
+Variable 
+	Entero: num
+
+INICIO
+	ESCRIBA "Digite un numero de 2 digitos"
+	LEA num
+	SI (num < -9 AND num > -100) O (num > 9 AND num < 100)
+		Si num = (num/2 * 2 = num) AND (num < > 2)
+			si num < 0
+				ESCRIBA "El numero digitado no es primo y es negativo"
+			SINO 
+				ESCRIBA "El numero digitado no es primo y es positivo"
+		SINO
+			SI num > 0	
+				ESCRIBA "El numero digitado si es primo y es positivo"
+			SINO 
+				ESCRIBA "El numero digitado si es primo y es negativo"
+	SINO
+		ESCRIBA "Digite un numero de dos digitos"
+FIN

@@ -1,0 +1,29 @@
+Leer un numero de tres digitos y determinar si almenos dos de 
+sus tres digitos son iguales
+
+Algoritmo numero_digitos_iguales
+Variables
+	Entero: num,nuevoNum,A,B,C
+
+INICIO
+	ESCRIBA "Digite un numero de tres digitos"
+	LEA num
+	nuevoNum = num
+	SI nuevoNum < 0
+		nuevoNum = nuevoNum * (-1)
+	SI nuevoNum > 99 AND nuevoNum < 1000
+		C = nuevoNum - nuevoNum/10 * 10
+		A = nuevoNum/100
+		nuevoNun = nuevoNum/10
+		B = nuevoNum - nuevoNum/10 * 10
+		SI C = A 
+			ESCRIBA "C"es igual a "A"
+			SI C = B
+				ESCRIBA "C"es igual a"B"
+				SI B = A
+					ESCRIBA "B"es igual a "A"
+				SINO
+					ESCRIBA "Ninguno de sus digitos son iguales"
+	SINO
+		ESCRIBA "Digite un numero de tres digitos"
+FIN

@@ -1,0 +1,17 @@
+Leer un numero entero y mostrar todos los divisores
+comprendidos entre el 1 y el numero leido.
+
+Programa_numeros_Divisores_Comprendidos
+Variables
+	Entero: num,numDiv
+
+INICIO
+	ESCRIBA "Ingresa un numero"
+	LEA num
+	numDiv = 1
+	HAGA
+		numDiv = numDiv + 1
+		SI num/numDiv * numDiv = num
+			ESCRIBA "numDiv"
+	HASTA numDiv = num - 1
+FIN

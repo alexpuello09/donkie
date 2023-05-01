@@ -1,0 +1,18 @@
+Leer un numero entero y determinar a cuanto es igual la suma 
+de todos los enteros comprendidos entre 1 y el numero leido.
+
+Programa determinar_Suma_Enteros
+Variables
+	Enteros: num,contaNum,sumaNum
+
+INICIO
+	ESCRIBA "Digite un numero entero"
+	LEA num
+	contaNum = 1
+	sumaNum = 0
+	HAGA
+		contaNum = contaNum + 1
+		sumaNum = sumaNum + contaNum
+	HASTA contaNum = num - 1
+	ESCRIBA "La suma de los enteros comprendidos es igual a "contaNum"
+FIN
